@@ -3,6 +3,7 @@ html {
 }
 
 body {
+    margin: 0;
     display: flex;
     flex-flow: column;
 }
@@ -25,6 +26,38 @@ body {
     gap: 1em;
 }
 
+.main {
+    flex: 1;
+    color: white;
+    background-color: #1f2937;
+    display: flex;
+}
+
+.information {
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+}
+
+.quote {
+    background-color: #e5e7eb;
+
+}
+
+.sign-up {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer {
+    color: white;
+    background-color: #1f2937;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 2em;
+}
 a, a:hover, a:focus, a:active {
     text-decoration: none;
     color: inherit;
