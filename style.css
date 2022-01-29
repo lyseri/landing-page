@@ -11,6 +11,7 @@ body {
 .header {
     color: white;
     background-color: #1f2937;
+    text-align: center;
     display: flex;
     justify-content: space-around;
     align-items: center;
@@ -29,13 +30,19 @@ body {
 .main {
     color: white;
     background-color: #1f2937;
-    padding: 8em;
+    padding: 6em;
     display: flex;
-    gap: 2em;
+    flex-flow: column;   
+    gap: 4em;
 }
 
 .main-container {
-    flex: 1;
+    text-align: center;
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    align-items: center;
+    gap: 1em;
 }
 
 .main-container h1 {
@@ -53,12 +60,12 @@ body {
 
 .main-image {
     flex: 1;
+    max-width: 100%;
     background-color: rgb(126, 134, 158);
 }
 
 .information {
-    padding: auto 10em;
-    padding-bottom: 6em;
+    padding: 6em 10em;
     display: flex;
     flex-flow: column;
     justify-content: center;
@@ -68,11 +75,14 @@ body {
 
 .information h2 {
     font-size: 35px;
+    text-align: center;
 }
 
 .information-container {
     display: flex;
-    flex-flow: row;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-items: center;
     border-radius: 6px;
     gap: 4em;
 }
