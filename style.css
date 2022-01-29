@@ -58,10 +58,10 @@ body {
 
 .information {
     padding: auto 10em;
-    padding-bottom: 8em;
+    padding-bottom: 6em;
     display: flex;
     flex-flow: column;
-    justify-self: center;
+    justify-content: center;
     align-items: center;
     gap: 1em;
 }
@@ -82,7 +82,7 @@ body {
     text-align: center;
     display: flex;
     flex-flow: column;
-    justify-self: center;
+    justify-content: center;
     align-items: center;
     gap: .5em;
 }
@@ -96,7 +96,26 @@ body {
 
 .quote {
     background-color: #e5e7eb;
+    color: rgb(87, 87, 87);
+    font-style: italic;
+    padding: 6em 5em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 
+.quote-container {
+    width: 1000px;
+    font-size: 30px;
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.quote .citation {
+    color: rgb(54, 54, 54);
+    align-self: flex-end;
 }
 
 .sign-up {
