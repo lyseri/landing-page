@@ -7,3 +7,5 @@ This is a generic company landing page with various information displayed
 - the box model
 - block and inline display styles
 - flexbox use and behavior
+
+[landing-page link](https://lyseri.github.io/landing-page/)
